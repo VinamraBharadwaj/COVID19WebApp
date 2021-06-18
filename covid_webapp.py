@@ -7,6 +7,7 @@ import pandas as pd
 from PIL import Image
 import imageio
 import urllib.request as ulr
+import os
 
 
 #Adding title, cover picture and background color to the interface
