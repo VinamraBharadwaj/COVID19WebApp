@@ -204,13 +204,13 @@ if not st.checkbox('Hide Animation', False, key = 5):
 #                         geojson = india_ds,color = 'Active Cases', color_continuous_scale = "portland", 
 #                         range_color = (0,150000), fitbounds='geojson')
 #    mapc.update_geos(visible=False)
-#    mapc.write_image('D:/FinalProject/Exports/COVID-19India'+str(j)+'.png')
+#    mapc.write_image('D:/COVID19'+str(j)+'VS.png')
 
 
-#export_dir = 'D:/FinalProject/Exports'
+#export_dir = 'D:/'
 #images = []
 #for fn in sorted(os.listdir(export_dir)):
-#    if fn.endswith('.png'):
+#    if fn.endswith('VS.png'):
 #        file_path = os.path.join(export_dir, fn)
 #        images.append(imageio.imread(file_path))
 #
